@@ -1,7 +1,7 @@
 {
-    CFBundleExecutable = "webviewapp";
+    CFBundleExecutable = "Battery";
     CFBundleIconFile = icon.png;
-    CFBundleIdentifier = "com.apple.webvie.app";
+    CFBundleIdentifier = "com.apple.battery";
     CFBundleInfoDictionaryVersion = 6.0;
     CFBundlePackageType = APPL;
     CFBundleSignature = "????";
