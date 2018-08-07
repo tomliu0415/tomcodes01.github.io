@@ -21,16 +21,16 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
   <key>UIApplicationShortcutItems</key>
-  <array>
-    <dict>
+	<array>
+     <dict>
       <key>UIApplicationShortcutItemIconFile</key>
       <string>iCon1</string>
       <key>UIApplicationShortcutItemTitle</key>
-      <string>Houdini</string>
+      <string>welcome</string>
       <key>UIApplicationShortcutItemSubtitle</key>
-      <string>Customize</string>
+      <string>Just Wanna Try It Out</string>
       <key>UIApplicationShortcutItemType</key>
-      <string>com.tommy.houdini.houdini</string>
+      <string>com.tommy.welcome.welcome</string>
       <key>UIApplicationShortcutItemIconType</key>
       <string>UIApplicationShortcutIconTypeSearch</string>
       <key>UIApplicationShortcutItemUserInfo</key>
@@ -45,7 +45,7 @@
       <key>UIApplicationShortcutItemTitle</key>
       <string>Open</string>
       <key>UIApplicationShortcutItemType</key>
-      <string>com.tommy.houdini.open</string>
+      <string>com.tommy.welcome.open</string>
       <key>UIApplicationShortcutItemUserInfo</key>
       <dict>
         <key>key2</key>
@@ -60,7 +60,7 @@
       <key>UIapplicationShortcutItemTitle</key>
       <string>This is Tom</string>
       <key>UIApplicationShortcutItemType</key>
-      <string>com.tommy.houdini.thisistom</string>
+      <string>com.tommy.welcome.thisistom</string>
       <key>UIApplicationShortcutItemUserInfo</key>
       <dict>
         <key>key3</key>
