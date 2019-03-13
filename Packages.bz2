@@ -1,0 +1,75 @@
+Package: com.tommy0415.decreaseVolume
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Tommy0415 <tom_lhy@hotmail.com>
+Depends: <iOS Firmware >=5.0>
+Filename: debs//<DecreaseVolume>
+Size: 2160
+MD5sum: 8DA04C8CAF981E84EF19CEB9EB6363B5
+SHA1: 2B1CF83B09BDC5D156D6F8684E136ACA9EBD17DB
+SHA256: <db02215edef3f5f1831be08cbfbcd10eb16e48d1e87a4df64b93bfce89d087e5>
+Section: <Tweaks>
+Description: A Fun Tweak That Disable Your Volume Control
+Author: Tommy0415 <email(hotmail.com)>
+Name: decreaseVolume
+
+Package: com.tommy0415.tomtweak
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer:Tommy0415 <tom_lhy@hotmail.com>
+Dependes: <iOS Firmware >=5.0>
+Filename:debs//<TomTweak>
+Size:2148
+MD5sum:f68991dda924cd714724299e6586cb7d
+SHA1sum:29ea10951fab0a98556a186c41feb57f3f7b7ccc
+SHA256sum:<ac0e9873318d1f6eba40cfe511ac1a287c93b121ea4db35685de243749f021d4>
+Section: <Tweaks>
+Description: A Fun Tweak 
+Author: Tommy0415 <email(hotmail.com)>
+Name: Tom Tweak 1
+
+Package: com.tommy0415.tweakz
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer:Tommy0415 <tom_lhy@hotmail.com>
+Dependes: <iOS Firmware >=5.0>
+Filename:debs//<Tweakz>
+Size:2148
+MD5sum:f68991dda924cd714724299e6586cb7d
+SHA1sum:29ea10951fab0a98556a186c41feb57f3f7b7ccc
+SHA256sum:<ac0e9873318d1f6eba40cfe511ac1a287c93b121ea4db35685de243749f021d4>
+Section: <Tweaks>
+Description: Just A Tweak haha
+Author: Tommy0415 <email(hotmail.com)>
+Name:Tweakz
+
+Package:com.tommy0415.BatteryInfo
+Version:0.0.1
+Architecture:iphoneos-arm
+Maintainer:Tommy0415 <tom_lhy@hotmail.com>
+Dependes <iOS Firmware >=5.0>
+Filename:debs//BatteryInfo.deb
+Size: 84982 
+MD5sum:9a9f9dc28268d938526e5323ec3ce684
+SHA1sum:b25a3ea15c47982fbdfc78e225a058e960850007
+SHA256sum:<dd2e5b318429c07960042688388a68fd581be51c435ba22ead5bb38cb2dbd9a0>
+Section:<System>
+Description:An application for your iPhone, it can let you know your battery level.
+Author:Tom <tom_lhy@hotmail.com>
+Name:BatteryInfo
+
+Package:com.tonmy0415.surprise
+Version:0.0.1
+Architedture:iphoneos-arm
+Maintainer:Tommy0415 <tom_lhy@hotmail.com>
+Dependes <iOS Firmware >=6.0>
+Filename:debs//Surprise.deb
+Size: 50562
+MD5:c8c9e982f8e78481cd9588a422cad601
+SHA1:1a2a158d38044d0e73869d39948f972b12e2b9c7
+SHA256:<8358b53a443c83495f5584f931b8abf2c3bc82e88ee5675e4dd21b337a24d502>
+Section:<System>
+Description:An App for iOS 6.0 and higher
+Author: Tommy <tom_lhy@hotmail.com>
+Name:Surprise
+
