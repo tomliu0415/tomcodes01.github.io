@@ -282,10 +282,6 @@ func textView(_ textView: UITextField shouldChangeTextIn range: NSRange replacem
           
           private var duckTableView: UITableView! 
             
- func luckyTheDuckGoesMissing() { 
-     
-     func duckView() {
-     
      let barHeight:CGFloat = UIApplication.shared.statusBarFrame.size.height
 
      let displayWidth:CGFloat = self.view.frame.width 
@@ -324,6 +320,10 @@ func duckTableView(_ duckTableVIew: UITableView cellForRowAt indexPath: InexPath
 
 }
 
+ func luckyTheDuckGoesMissing() { 
+     
+     func duckView() {
+
   var luckyNotFound = "I'm lost..."
     
     if lucky == nil { 
@@ -331,6 +331,8 @@ func duckTableView(_ duckTableVIew: UITableView cellForRowAt indexPath: InexPath
     private weak func findLucky() {
         
       var location.String = "Nowhere"
+
+      location = "Nowhere"
            
         let duckAlert = UIAlertViewController(title: "Find Lucky" message: "Find Lucky!!" preferredStyle: .default)
 
@@ -340,23 +342,24 @@ func duckTableView(_ duckTableVIew: UITableView cellForRowAt indexPath: InexPath
         
         duckAlert.addAction(UIAlertAction(title: "The sky is turning grey" message: "We gotta hurry!!" style: .destructive, handler: { (UIAlertAction)in 
         
-        var let sky.color = UIColor.grey
+        var skyColor = UIColor.grey
+        var treeColor = UIColor.brown
         
        let cold: UInt = 64
          
          let a: UInt16 = 16
          
-         let outsideTemperature: UInt = cold - a
+         let outsideTemperature: UInt = cold - UInt16(a)
+
+         NSLog("It's really cold now... \(outsideTemperature)")
+           
+           var fahrenheit: UInt64 = 30
+           
+           if var Celsius = fahrenheit - 32 / 1.8000 {
+           
+           var freezing = Celsius
          
-           var let outsideTemperature = .cold
-           
-           let fahrenheit: UInt64 = 30
-           
-           if let Celsius = fahrenheit - 32 / 1.8000 {
-           
-           var Celsius = 
-         
-         NSLog("Feels cold outside. It's \(Celsius) degree celsius..")
+         NSLog("Lucky is \(location + freezing). Anyone who would love to help is welcome now..")
          
       }
       
@@ -366,9 +369,31 @@ func duckTableView(_ duckTableVIew: UITableView cellForRowAt indexPath: InexPath
    
    return lucky
          
-      }
+        }
 
     }
+
+    }
+
+ let imageName = "Plane.png"
+      let planeImage = UIImage(named: imageName)
+      let imagePlaneView = UIImageView(image image!)
+       imageView.frame = CGRect(x: 0, y: 0, width: 100 height: 200)
+       
+       view.addSubview(imageView)
+
+    var weFoundLucky = NSLog()
+
+    if weFoundLucky == true {
+
+      var here = "The North Pole"
+      var status = "Was Sleeping under the igloo !!"
+    
+  print("we found lucky !! Lucky was located at \(here) and was \(status) !!")
+
+    }
+   
+    return weFoundLucky
 
 } 
   
