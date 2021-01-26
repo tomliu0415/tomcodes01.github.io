@@ -1,3 +1,3 @@
 # Tom Liu 
 
-I love Programming. 
+Programming solely for my hobby and interests.
