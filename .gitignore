@@ -1,2 +1,4 @@
 # Let's leave .DS_Store files be
+.DS_Store
 */.DS_Store
+Surprise/data/.DS_Store
